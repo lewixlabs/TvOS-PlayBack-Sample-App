@@ -39,7 +39,6 @@ namespace TvOS_PlayBack_Sample_App
                 // Modally present the player and call the player's play() method when complete.
                 PresentViewController(viewControllerToPresent: controller, true, () => player.Play());
             }
-
         }
     }
 }
